@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:jdk17
+FROM jenkins/jenkins:2.440.2-jdk17
 
 USER root
 RUN apt update && curl -fsSL https://get.docker.com | sh
